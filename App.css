@@ -1,0 +1,72 @@
+/* src/App.css */
+
+body {
+  font-family: 'Arial', sans-serif; /* Font style for the entire app */
+  background-color: #e9ecef; /* Light gray background */
+  margin: 0;
+  padding: 0;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  color: #343a40; /* Consistent color for headers */
+}
+
+.container {
+  max-width: 1200px; /* Maximum width for content */
+  margin: 0 auto; /* Center the container */
+  padding: 20px; /* Padding around the content */
+}
+
+.navbar {
+  margin-bottom: 20px; /* Space below the navbar */
+}
+
+.navbar-brand {
+  font-size: 24px; /* Logo or brand name size */
+}
+
+.nav-link {
+  color: #343a40; /* Color for navigation links */
+  transition: color 0.3s; /* Smooth transition for hover effects */
+}
+
+.nav-link:hover {
+  color: #007bff; /* Change color on hover */
+}
+
+.footer {
+  text-align: center; /* Center the footer text */
+  padding: 20px; /* Padding in the footer */
+  background-color: #343a40; /* Dark footer background */
+  color: white; /* White text in footer */
+}
+
+.btn {
+  border-radius: 5px; /* Rounded buttons */
+  transition: background-color 0.3s, transform 0.3s; /* Smooth transitions */
+}
+
+.btn:hover {
+  transform: scale(1.05); /* Slightly enlarge on hover */
+}
+
+.card {
+  border: none; /* Remove border for cards */
+  border-radius: 10px; /* Rounded corners for cards */
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+}
+
+.card-title {
+  font-size: 18px; /* Card title size */
+  color: #007bff; /* Blue color for titles */
+}
+
+.card-body {
+  padding: 20px; /* Padding inside card body */
+}
+
+.text-center {
+  text-align: center; /* Center text */
+}
+
+/* Add additional styling as needed */

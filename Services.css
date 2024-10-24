@@ -1,0 +1,19 @@
+/* src/components/Services.css */
+
+.services-container {
+    padding: 40px 20px; /* Padding around the services container */
+}
+
+.services-title {
+    font-size: 30px; /* Title size */
+    margin-bottom: 20px; /* Space below title */
+}
+
+.service-card {
+    margin-bottom: 20px; /* Space between service cards */
+}
+
+.service-card-title {
+    font-size: 20px; /* Title size for service cards */
+    color: #007bff; /* Blue color */
+}

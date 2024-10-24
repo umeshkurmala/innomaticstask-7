@@ -1,0 +1,16 @@
+/* src/components/About.css */
+
+.about-container {
+    padding: 40px 20px; /* Padding around the about container */
+    text-align: center; /* Center text */
+}
+
+.about-title {
+    font-size: 30px; /* Title size */
+    margin-bottom: 20px; /* Space below title */
+}
+
+.about-content {
+    font-size: 18px; /* Content size */
+    line-height: 1.6; /* Better line spacing */
+}
